@@ -11,9 +11,6 @@ while list[i]<4000000:
     list.append(list[i]+list[i-1])
     i=i+1
 
-print(list)
-
-
 sum=0
 for i in list:
     if i<4000000 and i%2==0:
